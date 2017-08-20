@@ -25,7 +25,7 @@ SECRET_KEY = 'vy$o75t!mev^jw+co%cc)tk59$z%#^-o83_5#qbd+08^t!g8n_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'spiral.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'kywinborn.pythonanywhere.com']
 
 
 # Application definition
