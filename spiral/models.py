@@ -9,6 +9,7 @@ class Person(models.Model):
     birthday = models.DateTimeField(blank=True, null=True)
     created_date = models.DateTimeField(default=timezone.now)
     activated_date = models.DateTimeField(blank=True, null=True)
+    address1 = models.ForeignKey(Address)
 
     def activate(self):
         self.activated_date = timezone.now()

@@ -1,7 +1,11 @@
-{% for person in persons %}
-    <div>
+{% extends 'spiral/base.html' %}
+
+{% block content %}
+  {% for person in persons %}
+    <div class="post">
         <p>created: {{ person.created_date }}</p>
         <h1><a href="">{{ person.first_name }} {{ person.last_name }}</a></h1>
         <p>{{ person.birthday }}</p>
     </div>
-{% endfor %}
+  {% endfor %}
+{% endblock %}
